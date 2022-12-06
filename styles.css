@@ -1,0 +1,56 @@
+body {
+    margin: 50px 100px 75px 100px;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.nav-bar { 
+    float: right; 
+}
+.nav-bar li {
+    display: inline-block; 
+    padding:10px;
+}
+  
+.nav-bar li:hover {
+    color:orange;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.desktop-image {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.news-block {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 300px;
+    background-color: #00001A;
+    padding: 0px 25px 25px 25px;
+}
+
+.news-block h2 {
+    color: orange;
+}
+
+.news-block h3 {
+    color: white;
+}
+
+.news-block p {
+    color: silver;
+}
+
+.news-block hr {
+    border-width: 0.1px;
+}
